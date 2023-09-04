@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        body{
+            background-image: url(https://cdn.pixabay.com/photo/2021/06/11/16/53/forest-6329012_1280.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        
+        }
+        .face{
+            width: 250px;
+            height: 250px;
+            border: 4px solid black;
+            border-radius: 130% / 155% 155% 120% 120%;
+            position: relative;
+            left: 550px;
+            top: 200px;
+            background-color:white;
+        }
+        .lefteye{
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            border-radius: 100%;
+            position: relative;
+            left: 50px;
+            top: 95px;
+            background-color:black;
+        }
+        .righteye{
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            border-radius: 100%;
+            position: relative;
+            left: 150px;
+            top: 42px;
+            background-color:black;
+        }
+        .lefteyeball{
+            width: 20px;
+            height: 20px;
+            border: 1px solid black;
+            border-radius: 100%;
+            position: absolute;
+            left: 24px;
+            top: 7px;
+            background-color:white;
+        }
+        .righteyeball{
+            width: 20px;
+            height: 20px;
+            border: 1px solid black;
+            border-radius: 100%;
+            position: absolute;
+            left: 5px;
+            top: 7px;
+            background-color:white;
+        }
+        .lefteyeglow{
+            width: 30px;
+            height: 15px;
+            border: 1px solid black;
+            border-radius: 100%;
+            position: absolute;
+            left: 12px;
+            top: 30px;
+            background-color:grey;
+        }
+        .righteyeglow{
+            width: 30px;
+            height: 15px;
+            border: 1px solid black;
+            border-radius: 100%;
+            position: absolute;
+            left: 12px;
+            top: 30px;
+            background-color:grey;
+        }
+        .nose{
+            width: 20px;
+            height: 15px;
+            border: 1px solid black;
+            border-radius: 100%;
+            position: absolute;
+            left: 115px;
+            top: 160px;
+            background-color:black;
+        }   
+        .leftmouth{
+            width: 45px;
+            height: 44px;
+            border-bottom: solid 3px black;
+            border-radius: 0px 0px 29px 29px;
+            position: absolute;
+            left:81px;
+            top: 145px;
+        }
+        .rightmouth{
+            width: 45px;
+            height: 44px;
+            border-bottom: solid 3px black;
+            border-radius: 100%;
+            border-color: #000 ;
+            position: absolute;
+            left: 123px;
+            top: 145px;
+        }
+        .leftcheeks{
+            width: 30px;
+            height: 15px;
+            border: none;
+            border-radius: 100%;
+            position: absolute;
+            left: 37px;
+            top: 155px;
+            background-color:lightpink;
+        }
+        .rightcheeks{
+            width: 30px;
+            height: 15px;
+            border: none;
+            border-radius: 100%;
+            position: absolute;
+            left: 187px;
+            top: 156px;
+            background-color:lightpink;
+        }
+        .leftear{
+            width: 65px;
+            height: 180px;
+            border: 5px solid black;
+            border-radius: 100% 100%;
+            position: relative;
+            left: 580px;
+            top: -220px;
+            background-color:white;
+        }
+        .leftinnerear{
+            width: 30px;
+            height: 130px;
+            border: 5px solid black;
+            border-radius: 100% 100%;
+            position: absolute;
+            left: 13px;
+            top: 40px;
+            background-color:lightpink;
+        }
+        .rightear{
+            width: 65px;
+            height: 180px;
+            border: 5px solid black;
+            border-radius: 100% 100%;
+            position: relative;
+            left: 690px;
+            top: -412px;
+            background-color:white;
+        }
+        .rightinnerear{
+            width: 30px;
+            height: 130px;
+            border: 5px solid black;
+            border-radius: 100% 100%;
+            position: absolute;
+            left: 13px;
+            top: 40px;
+            background-color:lightpink;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="face">
+        <div class="lefteye">
+            <div class="lefteyeball"></div>
+            <div class="lefteyeglow"></div>
+        </div>
+        <div class="righteye">
+            <div class="righteyeball"></div>
+            <div class="righteyeglow"></div>
+        </div>
+        <div class="nose"></div>
+        <div class="leftmouth"></div>
+        <div class="rightmouth"></div>
+        <div class="leftcheeks"></div>
+        <div class="rightcheeks"></div>
+    </div>
+    <div class="leftear">
+        <div class="leftinnerear"></div>
+    </div>
+    <div class="rightear">
+        <div class="rightinnerear"></div>
+    </div>
+</body>
+</html>
